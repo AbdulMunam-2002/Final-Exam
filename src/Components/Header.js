@@ -9,7 +9,7 @@ import logo from '../assets/images/logo.png';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-dark">
+    <Navbar expand="lg" className="bg-black">
       <Container fluid>
         <Navbar.Brand href="#">
           <Image src={logo} alt="Logo" fluid style={{ maxHeight: '80px' }} />
